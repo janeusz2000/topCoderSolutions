@@ -1,0 +1,7 @@
+.tmp
+bin/
+bazel-algo
+bazel-bin
+bazel-out
+bazel-testlogs
+compile_commands.json
