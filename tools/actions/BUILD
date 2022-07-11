@@ -26,3 +26,4 @@ extra_action(
   cmd = '$(location :generate_compile_command) $(EXTRA_ACTION_FILE)' +
         ' $(output $(ACTION_ID)_compile_command)',
 )
+package(default_visibility = ["//visibility:public"])
